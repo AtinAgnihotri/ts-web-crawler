@@ -1,0 +1,23 @@
+{
+  "name": "boot_dev",
+  "version": "1.0.0",
+  "description": "A small web crawler built in TS",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "setup": "nvm use && npm i",
+    "clean-setup": "rm -rf node_modules/ && nvm use && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "run": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
